@@ -60,7 +60,7 @@ public class C04_Soru12 extends TestBase {
         Assert.assertEquals(urun1Name, sepet1);
         Assert.assertEquals(urun2Name, sepet2);
 
-//10. Verify their prices, quantity and total price //Fiyatlarını, miktarlarını ve toplam fiyatlarını doğrulayın
+        //10. Verify their prices, quantity and total price //Fiyatlarını, miktarlarını ve toplam fiyatlarını doğrulayın
         String price1Urun = driver.findElement(By.xpath("(//tbody//tr//td[3]//p)[1]")).getText();
         String price2Urun = driver.findElement(By.xpath("(//tbody//tr//td[3]//p)[2]")).getText();
         String total1Urun = driver.findElement(By.xpath("(//tbody//tr//td[5]//p)[1]")).getText();
